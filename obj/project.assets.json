@@ -8,28 +8,30 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\alumno\\.nuget\\packages\\": {},
+    "C:\\Users\\fatim\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\Downloads\\simpsons-net-web-api-development-master\\simpsons-net-web-api-development-master\\simpsons-net-web-api.csproj",
+      "projectUniqueName": "C:\\Users\\fatim\\Documents\\hiper\\simpsons-net-web-api-this\\simpsons-net-web-api.csproj",
       "projectName": "simpsons-net-web-api",
-      "projectPath": "C:\\Users\\alumno\\Downloads\\simpsons-net-web-api-development-master\\simpsons-net-web-api-development-master\\simpsons-net-web-api.csproj",
-      "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\Downloads\\simpsons-net-web-api-development-master\\simpsons-net-web-api-development-master\\obj\\",
+      "projectPath": "C:\\Users\\fatim\\Documents\\hiper\\simpsons-net-web-api-this\\simpsons-net-web-api.csproj",
+      "packagesPath": "C:\\Users\\fatim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fatim\\Documents\\hiper\\simpsons-net-web-api-this\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fatim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

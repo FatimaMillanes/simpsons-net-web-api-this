@@ -15,19 +15,48 @@ namespace simpsons_net_web_api.Controllers
         {
             new Character
             {
-                FirstName = "Homero",
+                FirstName = "Homer",
                 SecondName = "Jay",
                 LastName = "Simpson",
-                Age = 34,
-                Photo="images/Homero-Simpson.jpeg"
+                Age = 39,
+                Photo="controllers/images/Homer_Simpson.png"
             },
             new Character
             {
-                FirstName = "Bartolomeo",
-                SecondName = "",
+                FirstName = "Marjorie ",
+                SecondName = "J.",
+                LastName = "Bouvier Simpson",
+                Age = 34
+            },
+            new Character
+            {
+                FirstName = "Bartholomew ",
+                SecondName = "Jojo",
                 LastName = "Simpson",
                 Age = 10
             },
+            new Character
+            {
+                FirstName = "Lisa",
+                SecondName = "Marie",
+                LastName = "Simpson",
+                Age = 10
+            },
+            new Character
+            {
+                FirstName = "Margaret",
+                SecondName = "",
+                LastName = "Simpson",
+                Age = 8
+            },
+            new Character
+            {
+                FirstName = "Santa's",
+                SecondName = "Little",
+                LastName = "Helper",
+                Age = 7
+            },
+            
         };
         [HttpGet("{id}")]
         public Character GetCharacter(int id)
