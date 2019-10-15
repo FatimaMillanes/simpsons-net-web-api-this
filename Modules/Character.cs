@@ -1,7 +1,9 @@
+using System;
 namespace simpsons_net_web_api.Modules
 {
     public class Character
     {
+        Int64 id;
         string firstName;
         string secondName;
         string lastName;
@@ -20,8 +22,9 @@ namespace simpsons_net_web_api.Modules
             this.firstName = firstName;
         }
 
-        public Character(string firstName, string secondName, string lastName, int age, int height, int weight, string birthDate, string photo, string job, string description) : this(firstName)
+        public Character(Int64 id, string firstName, string secondName, string lastName, int age, int height, int weight, string birthDate, string photo, string job, string description) : this(firstName)
         {
+            this.id = id;
             this.secondName = secondName;
             this.lastName = lastName;
             this.age = age;
@@ -33,6 +36,7 @@ namespace simpsons_net_web_api.Modules
             this.description = description;
         }
 
+        public Int64 Id { get => id; set => id = value; }
         public string FirstName { get => firstName; set => firstName = value;}
         public string SecondName { get => secondName; set => secondName = value; }
         public string LastName { get => lastName; set => lastName = value; }
