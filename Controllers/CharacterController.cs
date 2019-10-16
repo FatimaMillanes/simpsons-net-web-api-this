@@ -13,7 +13,7 @@ namespace simpsons_net_web_api.Controllers
     public class CharacterController : ICharacter
     {
         List<Character> listOfCharacters => new List<Character>
-        {
+        { 
             new Character
             {
                 FirstName = "Homer",
@@ -81,7 +81,7 @@ namespace simpsons_net_web_api.Controllers
             while(reader.Read())
             {
                 Character character = new Character
-                {
+                {/*for database*/
                     Id = reader.GetInt64(reader.GetOrdinal("id")),
                     FirstName = reader.GetString(reader.GetOrdinal("firstName")),
                     SecondName = reader.GetString(reader.GetOrdinal("secondName")),
